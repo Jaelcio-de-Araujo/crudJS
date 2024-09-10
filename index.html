@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Moderno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuários</h1>
+
+        <div class="form-container">
+            <form id="userForm" method="post">
+                <div class="input-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Digite o nome" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="Digite o telefone" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Digite a senha" required>
+                </div>
+
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+
+        <h2>Lista de Usuários</h2>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Senha</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

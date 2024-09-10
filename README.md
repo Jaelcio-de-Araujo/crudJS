@@ -25,7 +25,7 @@ Esta aplicação web permite cadastrar, editar, excluir e listar usuários, com 
 
 2. Navegue até a pasta do projeto:
    ```bash
-   cd CRUD
+   cd crud/src
    ```
 
 3. Abra o arquivo `index.html` em um navegador:
